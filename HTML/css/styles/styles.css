@@ -1,3 +1,56 @@
-p{
-    color:blueviolet 
+/* selector global:*
+   selector de etiqueta generico:<etiqueta> (0,0,1)
+   selector de id:<id> (1,0,0)
+   selector de clase:<clases> (0,1,0)
+    */
+/* selector de etiqueta generico */
+/* p{
+    color:blueviolet;
+} */
+/* html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: blue;
+    color:aliceblue
+}
+h1{
+    color:brown;
+} */
+/* selector de ID */
+#parrafo-1{    
+  color:red ;
+}
+
+/* selector de clases, mas especifico que selector de etiqueta */
+.item{
+    background-color: green;
+    color:aliceblue;
+}
+/* multiple clases */
+.primero{
+    color:aqua;
+}
+/* combinacion de selectores */
+div nav h3{
+    color:orangered;
+}
+.contenedor #navegacion .encapsulado{
+    color:goldenrod;
+}
+.lista li{
+    font-style: large;
+}
+/* propiedades mas importantes */
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(0, 128, 0);
+    color:rgb(255, 157, 127);
+    font-size: x-large;
+    text-align: center;
+    padding: 24px;
+    margin: 24px;
+    
 }
