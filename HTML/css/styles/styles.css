@@ -38,19 +38,47 @@ div nav h3{
 }
 .contenedor #navegacion .encapsulado{
     color:goldenrod;
+    background-color: blueviolet;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+    width: 40vw;
+    height: 50vh;
 }
 .lista li{
     font-style: large;
 }
 /* propiedades mas importantes */
+/* UNIDADES ABSOLUTAS PX,CM,MM */
+/* UNIDADES RELATIVAS EM, REM, %, VW, VH */
 .main{
-    width: 500px;
-    height: 500px;
+    width: 60vw;
+    min-width: 400px;   
+    max-width: 800px;
+    height: 1000vh;
+    min-height: 400px;
+    max-height: 800PX;
     background-color: rgb(0, 128, 0);
     color:rgb(255, 157, 127);
     font-size: x-large;
     text-align: center;
     padding: 24px;
     margin: 24px;
-    
+    border: 32px dotted gold;    /*bordes ancho, estilo, color*/
+    border-style: double;
+    border-radius: 10% 50% 30% 10%;
+}
+h4{
+    width: 60vw;
+    min-width: 400px;   
+    max-width: 800px;
+    height: 1000vh;
+    min-height: 400px;
+    max-height: 800PX;
+    background-color: rgb(0, 128, 0);
+    color:rgb(255, 157, 127);
+    font-size: x-large;
+    text-align: center;
+    padding: 24px;
+    margin: 24px;
 }
